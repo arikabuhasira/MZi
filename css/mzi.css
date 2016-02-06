@@ -1,0 +1,91 @@
+﻿/***********************************************************************
+ * @file: mzi.css 
+ * @author: arik abuhasira (arikabuhasira@gmail.com)
+ *
+ * styling. Multi Zone Splitter (MZI)
+ ************************************************************************/
+
+.panel {
+    position: absolute;
+    background-color: lightgray;
+
+	user-select:none;
+}
+
+.panel-content {
+    background-color: #1F1F20;
+    width:100%;
+    height: 100%;
+	user-select:none;
+}
+
+.mzi-mesh {
+    overflow:hidden;
+}
+
+.mzi-panel {
+    background-color: yellow;
+}
+
+.mzi-grip {
+    position: absolute;
+    background-color:#404040;
+}
+
+.mzi-grip-vertical {
+    height:100%;
+    width:2px;
+}
+
+.mzi-grip-horizontal{
+    width:100%;
+    height:2px;
+}
+
+.mzi-grip.left {
+    left: 0px;
+}
+
+.mzi-grip.top{
+    left: 0px;
+    top:0px;
+}
+
+.mzi-grip.right{
+    right: 0px;
+    top:0px;
+}
+
+.mzi-grip.bottom{
+    left: 0px;
+    bottom:0px;
+}
+
+.mzi-split-bar {
+    position: absolute;
+    background-color: green;
+}
+
+.mzi-split-bar.vertical {
+    width:2px;
+    height:100%;
+}
+
+.mzi-split-bar.horizontal {
+    width:100%;
+    height:2px;
+}
+
+
+/** DEBUG ***/
+.mzi-debug{
+    min-width:200px;
+    min-height: 200px;
+    z-index:999999;
+    background-color:lightblue;
+    opacity: 0.5;
+
+    position:absolute;
+    right: 0px;
+    bottom:0px;
+}
